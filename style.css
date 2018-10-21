@@ -227,7 +227,7 @@ h2 {
 .veg-basket {
     /* The image used */
     background-image: url("./images/veg-basket.jpg");
-
+    background-color:rgba(0, 0, 0, 0.3);
     /* Set a specific height */
     height: 175px;
 
