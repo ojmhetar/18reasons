@@ -142,8 +142,9 @@ h2 {
 }
 
 .tint70 {
+    height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.7);    
+    background: rgba(0, 0, 0, 0.3);    
 }
 
 .tint40 {
@@ -231,10 +232,24 @@ h2 {
     height: 175px;
 
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.cuttingboard {
+  /* The image used */
+  background-image: url("./images/cuttingboard.jpg");
+
+  /* Set a specific height */
+  height: 100px;
+
+  /* Create the parallax scrolling effect */
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .ingredients {
